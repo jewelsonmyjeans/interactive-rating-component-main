@@ -15,9 +15,9 @@
   <body>
 
     <!-- Rating state start -->
-    <div class="container">
+    <div class="container review-page" id="review-page">
 
-      <embed src="./images/icon-star.svg">
+      <embed class="star-icon" src="./images/icon-star.svg">
 
       <h2 class="rating-title">How did we do?</h2>
 
@@ -25,11 +25,11 @@
         to help us improve our offering!</p>
 
       <ul class="rating-numbers">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
+        <li class="number">1</li>
+        <li class="number">2</li>
+        <li class="number">3</li>
+        <li class="number">4</li>
+        <li class="number">5</li>
       </ul>
 
       <button id="submit-btn" class="btn">Submit</button>
@@ -38,16 +38,20 @@
       <!-- Rating state end -->
 
       <!-- Thank you state start -->
-    <div class="container thank-you-container">
+    <div class="container thank-you-container" id="thank-you-container">
 
-      <p>You selected <!-- Add rating here --> out of 5</p>
+      <embed class="thank-you-icon" src="./images/illustration-thank-you.svg">
 
-      <h2>Thank you!</h2>
+      <p class="thank-you-review">You selected <span class="review-value"></span> out of 5</p>
 
-      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      <h2 class="thank-you">Thank you!</h2>
+
+      <p class="rating-pg">We appreciate you taking the time to give a rating. If you ever need more support, 
         don't hesitate to get in touch!</p>
         
     </div>
   <!-- Thank you state end -->
+
+  <script src="index.js"></script>
   </body>
 </html>

@@ -28,8 +28,95 @@ body {
     background: $dark-blue;
     padding: 1.75em;
     border-radius: 15px;
+    padding: 2em 1.5em;
+    margin: 1.5em;
 }
 
-div.thank-you-container {
+.review-page {
     display: block;
+}
+
+.star-icon {
+    background: rgba($medium-grey, .1);
+    padding: .75em;
+    border-radius: 50%;
+}
+
+.rating-title {
+    margin: .75em 0;
+}
+
+.rating-pg {
+    color: $medium-grey;
+}
+
+.rating-numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em 0;
+    list-style-type: none;
+}
+
+.number {
+    color: $medium-grey;
+    background: rgba($medium-grey, .1);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.number:hover, .number:focus {
+    background-color: $light-grey;
+    color: $white;
+}
+
+.rating-change {
+    background: $orange;
+    color: $white;
+}
+
+.btn {
+    background: $orange;
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $white;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.btn:hover, .btn:focus {
+    background: $white;
+    color: $orange;
+}
+
+.thank-you-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.thank-you-review {
+    color: $orange;
+    background: rgba($light-grey, .1);
+    padding: .5em .75em;
+    border-radius: 20px;
+    margin: 1em 0;
+}
+
+.thank-you {
+    margin: .5em 0;
+}
+
+@media screen and (min-width: 500px) {
+    .container {
+        max-width: 400px;
+    }
 }
