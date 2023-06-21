@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/jewelsonmyjeans/interactive-rating-component-main]
-- Live Site URL: [https://jewelsonmyjeans.github.io/interactive-rating-component-main/]
+- Solution URL: [Solution URL] (https://github.com/jewelsonmyjeans/interactive-rating-component-main)
+- Live Site URL: [Live Site URL] (https://jewelsonmyjeans.github.io/interactive-rating-component-main/)
 
 ### Built with
 
@@ -32,7 +32,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [SCSS]
+- SCSS
 - Javascript
 
 ### What I learned
