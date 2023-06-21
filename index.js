@@ -1,5 +1,3 @@
-
-
 const reviewPage = document.querySelector('.review-page')
 const thankYouContainer = document.querySelector('.thank-you-container')
 const submitBtn = document.querySelector('.btn')
